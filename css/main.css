@@ -1,0 +1,969 @@
+html{
+    font-family: sans-serif;
+
+}
+header {
+    background: #3B5998;
+    padding: 15px;
+}
+
+
+header a{
+    color: white;  
+    text-decoration: none; 
+    font-size: 0.875em;
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none; 
+    color: #3B5998;
+    transition: all .2s ease-in-out;
+}
+
+a:hover{
+    color: red;
+}
+
+/* header */ 
+
+.fa{
+color: white;
+
+}
+.logo-area {
+    color: white;
+    display: inline-block;
+    width: 20%;
+    margin-left: -4px;    
+    
+}
+
+.logo-area a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+.menu {
+    display: inline-block;   
+    width: 20%; 
+    margin-left: -4px;    
+    text-align: right;
+    padding-right: 20px;    
+    
+}
+
+header .menu a{
+margin-right: 20px;
+
+}
+
+.menu ul li {
+    display: inline-block;    
+}
+
+.icon-links {
+    display: inline-block;    
+    width: 20%;
+    margin-left: -4px;    
+    padding-left: 20px;      
+    
+    
+}
+
+.icon-links ul li {
+    display: inline-block;    
+    margin-right: 10px;    
+    
+    
+    
+}
+
+.icon-links .quick-options {
+    display: inline-block;  
+    padding-left: 10px;      
+    margin-left: -4px;    
+    padding-right: 20px;            
+    padding-left: 20px;                
+    border-right: 1px solid rgba(255,255,255, .5);
+    border-left: 1px solid rgba(255,255,255, .5);
+    
+    
+    
+}
+
+.icon-links .privacy {
+    display: inline-block;    
+    margin-left: -4px;   
+    padding-left: 20px;                
+    
+    
+}
+
+.search-area {
+    display: inline-block;  
+    width: 35%;
+    text-align: right;
+    margin-left: -4px;    
+    
+}
+
+.search-area ul li {
+    display: inline-block;    
+}
+
+/* body */
+
+#top-area {
+    padding: 200px 15px 90px 20px;
+    background: url(http://travelonthebrain.net/wp-content/uploads/2017/11/Best-Travel-Cameras-to-Make-Your-Travel-Photography-Go-Through-the-Roof-06.jpg) no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.user-img {
+    padding: 10px;
+    display: inline-block;
+}
+
+.user-img img{
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+} 
+
+.user-details{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+    
+}
+
+.user-details h3{
+    color: white;
+    font-size: 24px;
+    font-weight: 300px;  
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.user-details a{
+    background: rgba(255,255,255, .3);
+    display: inline-block;
+    margin-left: -4px;
+    width: 60px;
+    margin-right: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 10px;
+    padding: 8px;
+    webkit-border-radius: 4px;
+    moz-border-radius: 4px;
+    color:white;
+    border-radius: 3px;
+    transition: background .4s ease-in-out;
+}
+
+.user-details a:hover{
+    background: #3B5998;
+    color:white;
+    text-decoration: none;
+} 
+
+.side-column {
+    width: 35%;
+    float: left;
+    margin: 0 2.5%;
+    max-width: 380px;
+   
+}
+
+#content-area{
+    background: #FAFAFA;
+    overflow: auto; 
+    padding: 50px 0;
+   
+}
+
+.main-area {
+    width: 55%;
+    float: left;    
+    margin: 0 2.5%;
+  
+}
+
+.widget-box{
+    padding: 15px;
+    overflow: auto;
+    background: white;
+    border-radius: 3px;
+    -webkit-box-shadow: 4px 4px 11px -1px rgba(130,127,130,1);
+    -moz-box-shadow: 4px 4px 11px -1px rgba(130,127,130,1);
+    box-shadow: 4px 4px 11px -1px rgba(130,127,130,1);
+    margin: 0 0 15px 0;
+
+}
+
+.widget-box .head .widget-img{
+    background: #C2C2C2;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+#content-area .widget-box .body h6 {
+    color: #C2C2C2;
+    margin: 0 0 10px 0;
+    
+}
+
+#content-area p.line-one{
+    color: #C2C2C2;
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    line-height: 20px;
+    
+}
+    
+#content-area p.line-two{
+    color: #C2C2C2;
+    margin: 0 0 15px 0;
+    font-size: 14px;
+    
+}
+
+
+.widget-box .head .widget-img .fa{
+    width: 50%;
+    font-size: 20px;
+    display: inline-block;
+    
+}
+
+.widget-title{
+    display: inline-block;
+    padding: 0 0 30px 10px;
+    width: 80%;
+}
+
+.widget-box post{
+    overflow: auto;
+
+}
+
+/*.body{
+    padding: 20px 0;
+
+}*/
+
+.widget-icon-container {
+
+    display: inline-block;
+}
+
+.submenu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.submenu ul .fa{
+    color: black;
+    font-size: 1.25em;
+
+}
+
+
+.widget-box.submenu{
+    padding: 0;
+    margin: 0 0 20px 0; 
+    }
+
+.submenu ul li{
+    display: inline-block; 
+    padding: 10px;
+    width: 17%; 
+    float: left;
+    text-align: center;
+    border-bottom: 3px solid white;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+
+    
+
+.submenu ul li:hover{
+    border-bottom: 3px solid #3B5998;
+}
+
+.submenu ul li:hover .fa{
+    color: #3B5998;
+}
+
+.submenu ul li span{
+    display: block;
+    margin: 15px 0 0 0; 
+    text-transform: uppercase;
+    font-size: 0.875rem;    
+}
+
+.submenu ul li:nth-child(5) {
+    padding-top:  0.875rem;
+}
+
+#content-area .main-area .widget-box.post .head .user-img{
+    display: inline-block;
+    float: left;
+    background: url(https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?h=350&auto=compress&cs=tinysrgb) no-repeat center center ; 
+    webkit-background-size: cover;
+    moz-background-size: cover;
+    o-background-size: cover;
+    background-size: cover;
+    height: 40px;
+    width: 40px; 
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+
+#content-area .main-area .widget-box.post .head .user-img-container{
+    width: 10%;
+    display: inline-block;
+    overflow: auto;
+    float: left; 
+}
+
+#content-area .main-area .widget-box.post .head .post-info{
+    display: block;
+    float: left;  
+    width: 80%;
+    padding-left: 6px;
+   
+}
+
+#content-area .main-area .widget-box.post .head::after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+#content-area .main-area .widget-box.post{
+    overflow: auto;
+
+}
+
+
+#content-area .main-area .widget-box.post .head .post-info .user-info{
+    display: block;
+    font-size: 14px;
+    margin: 4px 0 6px 0;    
+}
+.post-date{
+    display: block;
+    font-size: 12px;
+    color: #C2C2C2;
+    
+}
+
+#content-area .main-area .widget-box.post .body .post-img img{
+    width: 100%;
+}
+
+/******* MY IMAGES SECTION *******/
+.ph-one{
+    display: inline-block;
+    float: left;
+    height: 110px;
+    border: 1px solid white;                             
+    width: 32.6%;
+    background: url(https://images.unsplash.com/photo-1453831362806-3d5577f014a4?dpr=1&auto=format&fit=crop&w=376&h=255&q=60&cs=tinysrgb) no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.ph-two{
+    display: inline-block;
+    float: left;
+    height: 110px;
+    border: 1px solid white;                             
+    width: 32.6%;
+    background: url(https://static.pexels.com/photos/6526/sea-beach-holiday-vacation.jpg) no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.ph-three{
+    display: inline-block;
+    float: left;
+    height: 110px;
+    border: 1px solid white;                             
+    width: 32.6%;
+    background: url(http://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/1494629404/feet-maldives-BUDGET0517.jpg?itok=WXyDCmii) no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.ph-four{
+    display: inline-block;
+    float: left;
+    height: 110px;
+    border: 1px solid white;                             
+    width: 32.6%;
+    background: url(http://im.rediff.com/sports/2014/jun/25fans3.jpg) no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.ph-five{
+    display: inline-block;
+    float: left;
+    height: 110px;
+    border: 1px solid white;                             
+    width: 32.6%;
+    background: url(http://www.kraftrecipes.com/-/media/assets/festive15_heroes/philadelphia-mini-cheesecakes-143464-642x428.jpg?db=web&h=428&w=642&la=en&hash=41264F33D9FFE79E8AC71019CEAC8DCCCA9026B5) no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.ph-six{
+    display: inline-block;
+    float: left;
+    height: 110px;
+    border: 1px solid white;                             
+    width: 32.6%;
+    background: url(http://img-aws.ehowcdn.com/400x400/ds-img.studiod.com/London_City_Hall_1.jpg) no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.ph-seven{
+    display: inline-block;
+    float: left;
+    height: 110px;
+    border: 1px solid white;                             
+    width: 32.6%;
+    background: url(http://honisoit.com/archive/website/2013/wp-content/uploads/2012/08/epic-girl.jpg) no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.ph-eight{
+    display: inline-block;
+    float: left;
+    height: 110px;
+    border: 1px solid white;                             
+    width: 32.6%;
+    background: url(https://i.pinimg.com/736x/1b/50/cf/1b50cffb8a854ece175fb9cef54701bf--contrast-color-designer-heels.jpg) no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.ph-nine{
+    display: inline-block;
+    float: left;
+    height: 110px;
+    border: 1px solid white;                             
+    width: 32.6%;
+    background: url(https://www.bendigotourism.com/images/operators/bendigo-art-gallery/2799058804.jpg) no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+/******* FRIENDS IMAGES SECTION *******/
+
+.fi-one{
+    display: inline-block;
+    float: left;
+    height: 110px;
+    border: 1px solid white;                             
+    width: 32.6%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: url(https://randomuser.me/api/portraits/men/46.jpg) no-repeat center center ; 
+
+}
+
+.fi-two{
+    display: inline-block;
+    float: left;
+    height: 110px;
+    border: 1px solid white;                             
+    width: 32.6%;
+    background: url(https://randomuser.me/api/portraits/women/95.jpg) no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.fi-three{
+    display: inline-block;
+    float: left;
+    height: 110px;
+    border: 1px solid white;                             
+    width: 32.6%;
+    background: url(https://tinyfac.es/data/avatars/A7299C8E-CEFC-47D9-939A-3C8CA0EA4D13-200w.jpeg) no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.fi-four{
+    display: inline-block;
+    float: left;
+    height: 110px;
+    border: 1px solid white;                             
+    width: 32.6%;
+    background: url(https://randomuser.me/api/portraits/men/91.jpg) no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+.fi-five{
+    display: inline-block;
+    float: left;
+    height: 110px;
+    border: 1px solid white;                             
+    width: 32.6%;
+    background: url(https://randomuser.me/api/portraits/women/78.jpg) no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.fi-six{
+    display: inline-block;
+    float: left;
+    height: 110px;
+    border: 1px solid white;                             
+    width: 32.6%;
+    background: url(https://images.unsplash.com/photo-1456327102063-fb5054efe647?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=f05c14dd4db49f08a789e6449604c490) no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.fi-seven{
+    display: inline-block;
+    float: left;
+    height: 110px;
+    border: 1px solid white;                             
+    width: 32.6%;
+    background: url(http://pbs.twimg.com/profile_images/943227488292962306/teiNNAiy.jpg) no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.fi-eight{
+    display: inline-block;
+    float: left;
+    height: 110px;
+    border: 1px solid white;                             
+    width: 32.6%;
+    background: url(https://d3iw72m71ie81c.cloudfront.net/marvell.png) no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.fi-nine{
+    display: inline-block;
+    float: left;
+    height: 110px;
+    border: 1px solid white;                             
+    width: 32.6%;
+    background: url(https://images.unsplash.com/photo-1509836594056-5313a3270079?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=e01ec4478bd6316b187d30eed63be1aa) no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+/**************BODY COMMENTS SECTION***********************/
+
+#content-area .main-area .widget-box.post .body .top-icons{
+    width: 100%;
+    padding: 15px 0;
+}   
+
+.top-icons .fa{
+    color: #C2C2C2;  
+    font-size: 17px;  
+}
+
+.top-icons .fa-thumbs-o-up{
+    color: #C2C2C2; 
+    margin-right: 15px;   
+}
+
+.top-icons .fa-share{
+    color: #C2C2C2;    
+}
+
+.top-icons span{
+    color: #C2C2C2;    
+    float: right;
+    display: inline-block;
+}
+
+#content-area .main-area .widget-box.post .body .post-comments::after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+#content-area .main-area .widget-box.post .body .post-comments .user-img{
+    width: 20%;
+    display: inline-block;
+    overflow: auto;
+    float: left; 
+}   
+
+#content-area .main-area .widget-box.post .body .post-comments{
+    width: 100%;
+    display: inline-block;
+    overflow: auto;
+    float: left; 
+    background: #F4F4F4;
+    padding: 15px;
+    margin-left: -15px;
+    margin-right: -15px;
+}   
+
+
+#content-area .main-area .widget-box.post .body .post-comments .user-img img{
+    width: 100%; 
+    border-radius: 50%;
+    float: left;
+    width: 60px;
+    height: 60px;
+    padding: none;
+}   
+
+#content-area .main-area .widget-box.post .body .post-comments .user-comment{
+    display: inline-block;
+    float: right;  
+    width: 80%;
+    font-size: 14px;
+}
+
+#content-area .main-area .widget-box.post .body .post-comments .user-comment .user-info{
+   margin: 10px 0 10px 0;
+} 
+
+
+#content-area .main-area .widget-box.post .body .post-comments .user-comment .user-info .time{
+    font-size: 12px;
+    color: #9C9C9C;
+    float: right;
+ } 
+
+
+/**************BODY FORM SECTION***********************/
+
+
+#content-area .main-area .widget-box.post .body .post-form::after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .user-img{
+    width: 20%;
+    display: inline-block;
+    overflow: auto;
+    float: left; 
+}   
+
+#content-area .main-area .widget-box.post .body .post-form{
+    width: 100%;
+}   
+
+
+#content-area .main-area .widget-box.post .body .post-form .user-img img{
+    width: 100%; 
+    border-radius: 50%;
+    float: left;
+    width: 60px;
+    height: 60px;
+    padding: none;
+}   
+
+#content-area .main-area .widget-box.post .body .post-form .form-info{
+    display: inline-block;
+    float: left;  
+    width: 84%;
+    font-size: 14px;
+    padding: 20px 0;
+    border-bottom: 1px solid #9C9C9C;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .icons{
+    display: inline-block;
+    float: right;  
+}
+
+
+#content-area .main-area .widget-box.post .body .post-form input{
+    width: 80%;
+    border: 0 solid white;
+    font-size: 16px; 
+}
+
+#content-area .main-area .widget-box.post .body .post-form input:focus{
+    width: 80%;
+    border: 0 solid white;
+    font-size: 18px; 
+    outline: none;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .icons .fa{
+    font-size: 17px;
+    margin: 0 15px 0 0;
+    color: #C2C2C2;
+}
+
+
+/* media queries */ 
+
+
+
+header, .logo-area .menu{ 
+display: flex;
+flex-direction: row;
+}
+
+header{ 
+   justify-content: space-between;
+    }
+
+.logo-area .menu {
+    justify-content: space-around;
+    flex: 1;
+    position: relative;
+    }
+
+
+
+/* MOBILE */
+    @media  (min-width: 0) and (max-width: 768px) {
+    
+    /******* HEADER SECTION *******/
+    i.fa.fa-lock{
+        display: none;
+    }
+
+    .icon-links .quick-options{
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    .icon-links ul li{
+        margin-right: 5px;
+    }
+
+    button, input, optgroup, select, textarea{
+        font-size: 10px;
+    }
+
+    
+
+    .icon-links{
+        display: none;
+    }
+
+    .search-area{
+        margin-left: auto;
+        width: 1px;
+    }
+
+    input[type="text"]{
+        font-size: 10px;
+    }
+
+    .menu{
+        width: auto;
+    }
+
+    /******* TOP SECTION *******/
+
+    #top-area{
+        padding: 80px 15px 40px 20px;
+    }
+
+    .user-img img {
+        border-radius: 50%;
+        width: 100px;
+        height: auto;
+    }
+
+    .user-details a{
+        width:80px;
+        font-size: 8px;
+    }
+
+    /******* LEFT SECTION *******/
+
+    .widget-box .head .widget-img .fa {
+        font-size: 15px;
+    }
+    
+    .widget-box .head .widget-img{
+        height:30px;
+        width: 30px;
+    }
+    .widget-title{
+        padding: 0 0 30px 0px;
+    }
+
+    #content-area .widget-box .body h6{
+        font-size: 0.8rem;
+    }
+
+    #content-area p.line-one {
+        font-size: 12px;
+    }
+
+    #content-area p.line-two {
+        font-size: 12px;
+    }
+
+    .body .fi-one, .fi-two, .fi-three, .fi-four, .fi-five, .fi-six, .fi-seven, .fi-eight, .fi-nine {
+        height: 60px;
+    }
+
+    .body .ph-one, .ph-two, .ph-three, .ph-four, .ph-five, .ph-six, .ph-seven, .ph-eight, .ph-nine {
+        height: 60px;
+    }
+    /******* RIGHT SECTION *******/
+
+    .submenu ul .fa{
+        font-size: 1em;
+    }
+
+    #content-area .main-area .widget-box.post .head .user-img-container{
+        width: 100%;
+    }
+    
+    #content-area .main-area .widget-box.post .head .post-info{
+        width: 100%;
+    }
+
+    .widget-title {
+       font-size: 13px;
+    }
+    #content-area .main-area .widget-box.post .body .post-comments .user-img{
+        width: 100%;
+        margin-left: -20px;
+    }
+    #content-area .main-area .widget-box.post .body .post-comments .user-comment{
+        width: 100%;
+    }
+    #content-area .main-area .widget-box.post .body .post-comments{
+        margin-left: 0px;
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        width: 100%;
+        font-size: 10px;
+    }
+    .user-comment{
+        width: 100%;
+    }
+    
+    .post-date{
+        font-size: 10px;
+    }
+
+    #content-area .main-area .widget-box.post .body .post-comments .user-comment .user-info .time{
+        display: inline-block;
+        float: none;
+    }
+
+    #content-area .main-area .widget-box.post .body .post-form .user-img{
+        width:100%;
+    }
+
+    #content-area .main-area .widget-box.post .body .post-form input{
+        width:100%;
+        font-size: 14px;
+    }
+    
+
+/* IPAD*/
+
+    @media  (max-width:767px) {
+        .submenu ul li span {
+           font-size: 7px;
+        }
+    }
+
+    .icon-links .quick-options{
+        padding-left: 2px;
+        padding-right: 0px;
+    }
+
+    
+
+    .icon-links ul li{
+        margin-right: 5px;
+    }
+
+    @media (min-width: 768px) and (max-width: 991px)  {
+        .submenu ul li span {
+           font-size: 9px;
+        }
+    }
+
+   
+   /*@media (min-width: 992) and (max-width: 1119px) {
+        .submenu ul li span{  
+           font-size: 12px;
+        }
+    }*/
+
+    }
+
+
+   
+                            
